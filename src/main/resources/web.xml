@@ -1,0 +1,33 @@
+<spongebobconfig>
+    <servlets>
+        <servlet>
+            <servletname>servletone</servletname>
+            <servletclass>bikini.spongebob.server.servlet.ServletOne</servletclass>
+        </servlet>
+        <servlet>
+            <servletname>servlettwo</servletname>
+            <servletclass>bikini.spongebob.server.servlet.ServletTwo</servletclass>
+        </servlet>
+        <servlet>
+            <servletname>servletthree</servletname>
+            <servletclass>bikini.spongebob.server.servlet.ServletThree</servletclass>
+        </servlet>
+    </servlets>
+
+    <servletmappings>
+        <servletmapping>
+            <servletname>servletone</servletname>
+            <urlpattern>/one/*</urlpattern>
+        </servletmapping>
+
+        <servletmapping>
+            <servletname>servlettwo</servletname>
+            <urlpattern>/two/*</urlpattern>
+        </servletmapping>
+
+        <servletmapping>
+            <servletname>servletthree</servletname>
+            <urlpattern>/three/*</urlpattern>
+        </servletmapping>
+    </servletmappings>
+</spongebobconfig>
